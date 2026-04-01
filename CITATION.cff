@@ -6,7 +6,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-6000-9937" 
 title: "[simuladorsinapsis]"
 version: "1.0.0"
-doi: "" # Déjalo vacío por ahora; cuando Zenodo te dé el DOI, lo pegas aquí
+doi: "10.5281/zenodo.19371753"
 date-released: 2026-04-01
 url: "https://antoniogabucio.github.io/simuladorsinapsis/"
 license: MIT
