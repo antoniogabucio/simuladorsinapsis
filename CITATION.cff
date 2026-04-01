@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Si utilizas este software, por favor cítalo como se indica a continuación."
+authors:
+  - family-names: "[Gabucio López]"
+    given-names: "[Antonio]"
+    orcid: "https://orcid.org/0000-0001-6000-9937" 
+title: "[simuladorsinapsis]"
+version: "1.0.0"
+doi: "" # Déjalo vacío por ahora; cuando Zenodo te dé el DOI, lo pegas aquí
+date-released: 2026-04-01
+url: "https://antoniogabucio.github.io/simuladorsinapsis/"
+license: MIT
