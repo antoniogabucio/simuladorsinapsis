@@ -174,7 +174,7 @@ def main(page: ft.Page):
         
         ax3.set_xlim(0, t_max_post) 
         ax3.set_ylabel("Voltaje (mV)", fontweight='bold')
-        ax3.set_title("Receptor Post-Sináptico (Zoom Subumbral)", fontsize=12, color='#8a2be2')
+        ax3.set_title("Célula postsináptica", fontsize=12, color='#8a2be2')
         ax3.grid(True, linestyle='-', alpha=0.3); ax3.legend(loc="upper right", fontsize=8)
         
         ax4.set_ylim(0, 3)
