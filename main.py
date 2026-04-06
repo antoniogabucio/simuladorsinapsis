@@ -153,11 +153,11 @@ def main(page: ft.Page):
         
         ax1.plot(t, v_A, color='#0055ff', linewidth=1.5); ax1.axhline(y=-60, color='red', linestyle='--', alpha=0.3)
         ax1.set_ylim(-90, 50); ax1.set_xlim(0, t_max_pre); ax1.set_ylabel("mV", fontsize=8)
-        ax1.set_title("Emisor A (Pre)", fontsize=10, color='#0055ff'); ax1.grid(True, linestyle='-', alpha=0.3)
+        ax1.set_title("Célula presinaptica A (Pre)", fontsize=10, color='#0055ff'); ax1.grid(True, linestyle='-', alpha=0.3)
         
         ax2.plot(t, v_B, color='#e63946', linewidth=1.5); ax2.axhline(y=-60, color='red', linestyle='--', alpha=0.3)
         ax2.set_ylim(-90, 50); ax2.set_xlim(0, t_max_pre); ax2.set_xlabel("ms", fontsize=8); ax2.set_ylabel("mV", fontsize=8)
-        ax2.set_title("Emisor B (Pre)", fontsize=10, color='#e63946'); ax2.grid(True, linestyle='-', alpha=0.3)
+        ax2.set_title("Célula presinaptica B (Pre)", fontsize=10, color='#e63946'); ax2.grid(True, linestyle='-', alpha=0.3)
         
         ax3.plot(t, v_post, color='#8a2be2', linewidth=2) 
         ax3.axhline(y=-60, color='red', linestyle='--', alpha=0.6, label='Umbral (-60mV)')
@@ -309,7 +309,7 @@ def main(page: ft.Page):
 
     panel_A_interno = ft.Container(
         content=ft.Column([
-            ft.Text("Emisor A (Azul)", weight="bold", color="#0055ff"),
+            ft.Text("Célula presinaptica A (Azul)", weight="bold", color="#0055ff"),
             ft.Row([sb_start_A.view, sb_freq_A.view, sb_num_A.view, drop_rec_A], wrap=True) # wrap aquí permite que los spinbox bajen si no caben
         ]), padding=10, border=ft.Border.all(2, "#0055ff"), border_radius=8, bgcolor="#f0f8ff"
     )
@@ -318,7 +318,7 @@ def main(page: ft.Page):
 
     panel_B_interno = ft.Container(
         content=ft.Column([
-            ft.Text("Emisor B (Rojo)", weight="bold", color="#e63946"),
+            ft.Text("Célula presinaptica B (Rojo)", weight="bold", color="#e63946"),
             ft.Row([sb_start_B.view, sb_freq_B.view, sb_num_B.view, drop_rec_B], wrap=True)
         ]), padding=10, border=ft.Border.all(2, "#e63946"), border_radius=8, bgcolor="#fff0f0"
     )
