@@ -1,5 +1,6 @@
 # Simulador de Sinapsis Celulares
-**Autor:** Antonio Gabucio López  
+**Autor:** Antonio Gabucio López 
+**Filiación:** PSI Universidad de Cádiz. Departamento 	BIOMEDICINA, BIOTECNOLOGIA Y SALUD PUBL. (C125)
 **Fecha:** Marzo 2026  
 **Versión:** 1.0  
 
