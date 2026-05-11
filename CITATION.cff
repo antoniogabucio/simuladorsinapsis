@@ -3,6 +3,7 @@ message: "Si utilizas este software, por favor cítalo como se indica a continua
 authors:
   - family-names: "[Gabucio López]"
     given-names: "[Antonio]"
+    Afiliation: PDI Universidad de Cádiz. Dep. BIOMEDICINA, BIOTECNOLOGIA Y SALUD PUBL. (C125) 
     orcid: "https://orcid.org/0000-0001-6000-9937" 
 title: "[simuladorsinapsis]"
 version: "1.0.0"
